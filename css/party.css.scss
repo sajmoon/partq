@@ -1,0 +1,57 @@
+* {
+  font-family: "Lato", "verdana";
+  font-size: 14px;
+  color: white;
+}
+
+body {
+  background-color: lighten(black, 15%);
+  margin: 0px;
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    background-color: lighten(black, 25%);
+    .logo {
+      img {
+        padding: 5px;
+        background-color: lighten(black, 30%);
+        border: 1px solid lighten(black, 35%);
+      }
+    }
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 45px;
+      font-width: 700;
+      .small {
+        font-size: 12px;
+      }
+    }
+    .about {
+      margin-top: 50px;
+      width: 100%;
+      .person {
+        width: 100%;
+        .details {
+          display: inline-block;
+          width: 200px;
+          height: 120px;
+        }
+
+        img {
+          height: 100px;
+          width: 100px;
+          float: left;
+          margin-right: 10px;
+        }   
+      }
+    }
+    .clear {
+      clear: both;
+    }
+  }
+}
