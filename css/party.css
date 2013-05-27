@@ -88,16 +88,27 @@ body {
       }
     body .container .about {
       margin-top: 50px;
-      width: 100%; }
+      width: 100%; 
+    }
       body .container .about .person {
-        width: 100%; }
+        width: 49%; 
+        display: inline-block;
+      }
         body .container .about .person .details {
-          display: inline-block;
+
           height: 120px; }
         body .container .about .person img {
           height: 100px;
           width: 100px;
           float: left;
-          margin-right: 10px; }
+          margin-right: 10px; 
+        }
+        .container .about .person .details p {
+          margin: 0;
+        }
+        .container .about .person .details h5 {
+          margin: 0;
+        }
+
     body .container .clear {
       clear: both; }
