@@ -43,6 +43,7 @@ body {
   background-color: lighten(black, 15%);
   margin: 0px;
   .container {
+    @include box-shadow(0 0 5px 3px hsla(0, 0%, 0%, 0.65));
     width: 800px;
     margin-left: auto;
     margin-right: auto;
