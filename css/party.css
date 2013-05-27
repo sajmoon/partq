@@ -1,7 +1,28 @@
+@font-face {
+  font-family: 'StRydeRegular';
+  src: url("webfonts/272713_0_0.eot");
+  src: url("webfonts/272713_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/272713_0_0.woff") format("woff"), url("webfonts/272713_0_0.ttf") format("truetype"); }
+
+.StRydeRegular {
+  font-family: StRydeRegular;
+  font-weight: normal;
+  font-style: normal; }
+
 * {
-  font-family: "Lato", "verdana";
+  font-family: "StRydeRegular", "Lato", "Verdana";
+  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
   color: white; }
+  * h1, * h2, * h3, * h4, * h5, * .beta {
+    font-family: "Lato", "Verdana";
+    font-weight: 700; }
+  * h1 {
+    text-align: center;
+    font-size: 45px; }
+  * h3 {
+    margin-top: 0px;
+    font-size: 20px; }
 
 body {
   background-color: #262626;
@@ -13,13 +34,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     height: 100%;
-    background-color: #404040; }
-    body .container .logo img {
-      padding: 5px;
-      background-color: #4d4d4d;
-      border: 1px solid #595959; }
+    background-color: #404040;
+    overflow: hidden; }
     body .container .beta {
-      overflow-x: hidden;
       position: absolute;
       top: 35px;
       left: -45px;
@@ -29,22 +46,29 @@ body {
       -ms-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
-      letter-spaceing: 2px;
+      letter-spacing: 2px;
       line-height: 15px;
       width: 200px;
       padding: 5px;
-      font-weight: 700;
+      font-weight: 600;
       text-align: center;
-      font-size: 12px;
+      font-size: 11px;
       color: white;
       background-color: #5151cc; }
-    body .container h1 {
-      text-align: center;
-      color: white;
-      font-size: 45px;
-      font-width: 700; }
-      body .container h1 .small {
-        font-size: 12px; }
+    body .container h1 .small {
+      font-size: 12px; }
+    body .container .information {
+      display: inline-block; }
+      body .container .information .logo {
+        float: left;
+        margin-right: 15px; }
+        body .container .information .logo img {
+          padding: 5px;
+          background-color: #4d4d4d;
+          border: 1px solid #595959; }
+      body .container .information .text {
+        width: 500px;
+        float: right; }
     body .container .about {
       margin-top: 50px;
       width: 100%; }
