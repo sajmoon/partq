@@ -33,9 +33,15 @@ $pink: #bc6367;
     text-align: center;
     font-size: 45px;
   }
+  h2 {
+    font-size: 30px;
+  }
   h3 {
     margin-top: 0px;
     font-size: 20px;
+  }
+  h5 {
+    margin-top: 0px;
   }
 }
 
@@ -49,7 +55,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    height: 100%;
+    min-height: 100%;
     background-color: lighten(black, 25%);
     .beta {
       @include position( absolute, 35px 0 0 -45px  );
@@ -63,14 +69,14 @@ body {
       text-align: center;
       font-size: 14px;
       color: white;
-      background-color: shade(lighten(blue,20), 20%);
+      background-color: shade(lighten(blue,20%), 20%);
+      border: 1px solid shade(lighten(black, 20%), 30%)
     }
     h1 {
       .small {
         font-size: 12px;
       }
     }
-    overflow: hidden;
     .information {
       display: inline-block;
       .logo {
@@ -94,7 +100,6 @@ body {
         width: 100%;
         .details {
           display: inline-block;
-          width: 200px;
           height: 120px;
         }
 
