@@ -18,6 +18,26 @@ body {
       padding: 5px;
       background-color: #4d4d4d;
       border: 1px solid #595959; }
+    body .container .beta {
+      overflow-x: hidden;
+      position: absolute;
+      top: 35px;
+      left: -45px;
+      display: block;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      letter-spaceing: 2px;
+      line-height: 15px;
+      width: 200px;
+      padding: 5px;
+      font-weight: 700;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      background-color: #5151cc; }
     body .container h1 {
       text-align: center;
       color: white;

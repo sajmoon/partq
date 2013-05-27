@@ -1,3 +1,5 @@
+@import "bourbon/bourbon";
+
 * {
   font-family: "Lato", "verdana";
   font-size: 14px;
@@ -21,6 +23,21 @@ body {
         background-color: lighten(black, 30%);
         border: 1px solid lighten(black, 35%);
       }
+    }
+    .beta {
+      overflow-x: hidden;
+      @include position( absolute, 35px 0 0 -45px  );
+      display: block;
+      @include transform(rotate(-45deg));
+      letter-spaceing: 2px;
+      line-height: 15px;
+      width: 200px;
+      padding: 5px;
+      font-weight: 700;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      background-color: shade(lighten(blue,20), 20%);
     }
     h1 {
       text-align: center;
