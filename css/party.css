@@ -12,14 +12,15 @@
   font-family: "StRydeRegular", "Lato", "Verdana";
   font-weight: normal;
   font-style: normal;
-  font-size: 14px;
-  color: white; }
+  font-size: 18px;
+  color: black; }
   * h1, * h2, * h3, * h4, * h5, * .beta {
     font-family: "Lato", "Verdana";
     font-weight: 700; }
   * h1 {
     text-align: center;
-    font-size: 45px; }
+    font-size: 80px; 
+    margin-bottom: 10px; }
   * h2 {
     font-size: 30px; }
   * h3 {
@@ -29,17 +30,17 @@
     margin-top: 0px; }
 
 body {
-  background-color: #262626;
+  background-color: white;
   margin: 0px; }
   body .container {
-    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.65);
+    /*box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.65);*/
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     min-height: 100%;
-    background-color: #404040; }
+    background-color: white; }
     body .container .beta {
       position: absolute;
       top: 35px;
@@ -59,7 +60,7 @@ body {
       font-size: 14px;
       color: white;
       background-color: #5151cc;
-      border: 1px solid #232323; }
+      /*border: 1px solid #232323;*/ }
     body .container h1 .small {
       font-size: 12px; }
     body .container .information {
@@ -72,8 +73,19 @@ body {
           background-color: #4d4d4d;
           border: 1px solid #595959; }
       body .container .information .text {
-        width: 500px;
-        float: right; }
+        width: 700px;
+        float: right; 
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      body .smallcontainer-left {
+        width: 330px;
+        float: left;
+      }
+      body .smallcontainer-right {
+        width: 330px;
+        float: right;
+      }
     body .container .about {
       margin-top: 50px;
       width: 100%; }
